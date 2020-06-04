@@ -25,7 +25,7 @@ p
 #siteContainer
 {
 	margin: 0 auto;
-	width: 1366px;
+	width: 1266px;
 }
 
 #mainHeader
@@ -51,4 +51,25 @@ p
 	width: 821px;
   height: 92px;
   background: #4066AA;
+}
+
+
+#hero
+{
+  margin-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+
+ #heroImage {
+ width: 1266px;
+  height: 463px;
+  background: #4066AA;
+
+}
+
+#heroImage p
+{
+  line-height: 450px;
 }
