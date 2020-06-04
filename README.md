@@ -1,4 +1,4 @@
-# singh_j_project2
+# singh_j_project3
 Web Development 1 - Project 3 Creating Scaffold (Midterm	Prep)
 
 # Installation
