@@ -193,3 +193,29 @@ p
 	width: 343px;
   background: #293F67;
 }
+
+
+#charity
+{
+  margin-bottom: 10px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  justify-content: flex-start;
+  background: #4066AA;
+}
+
+#charityText
+{
+	width: 377px;
+  height: 308px;
+  margin-top: 90px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+  background: #293F67;
+}
+
+#charityText p
+{
+  line-height: 290px;
+}
