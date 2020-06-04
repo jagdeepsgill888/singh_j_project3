@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+
+p
+{
+	color: #fff;
+	line-height: 100px;
+	text-align: center;
+	margin: 0;
+}
+
+
+
+
+
+
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 1366px;
+}
+
+#mainHeader
+{
+	margin-top: 40px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 2px #DDD;
+}
+
+#logo
+{
+	width: 261px;
+  height: 92px;
+  background: #4066AA;
+}
+
+#mainNav
+{
+	margin-left: auto;
+	width: 821px;
+  height: 92px;
+  background: #4066AA;
+}
