@@ -177,6 +177,7 @@ p
 #HomeBeerPromoText
 {
 	width: 572px;
+  height: 338px;
   margin-top: 90px;
   margin-left: 120px;
   margin-bottom: 50px;
@@ -190,6 +191,7 @@ p
   margin-right: 60px;
   margin-bottom: 50px;
 	width: 343px;
+  height: 338px;
   background: #293F67;
 }
 
