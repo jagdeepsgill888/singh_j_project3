@@ -27,7 +27,7 @@ p
 #siteContainer
 {
 	margin: 0 auto;
-	width: 1366px;
+	max-width: 1366px;
 }
 
 #mainHeader
