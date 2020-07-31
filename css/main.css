@@ -189,10 +189,12 @@ p
 
 #charityText
 {
-	width: 292px;
+	min-width: 292px;
   margin-top: 25px;
   margin-left: 10%;
+	margin-right: 10%;
   margin-bottom: 25px;
+	flex-grow: 1;
   background: #293F67;
 }
 
@@ -214,11 +216,9 @@ p
 
 #eventsText
 {
-  width: 230px;
-  height: 110px;
-  margin-top: 50px;
-  margin-left: 20%;
-  margin-bottom: 10px;
+  min-width: 230px;
+  min-height: 110px;
+  margin: 25px auto auto auto;
   background: #293F67;
 }
 
@@ -229,13 +229,13 @@ p
 
 #theEvents
 {
-  margin-bottom: 20px;
+  margin: 0 auto;
 	display: flex;
 	flex-direction: column;
   justify-content: space-between;
 	padding-bottom: 5px;
   background: #4066AA;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
 #theEvents p
@@ -243,25 +243,26 @@ p
   line-height: 260px;
 }
 
-#events1
+/*#event1
 {
-  width: 266.96px;
-  height:145.94px;
   margin-top:30px;
   margin-bottom: 50px;
   background: #293F67;
-}
+}  */
 
-#events2
+.events
 {
-	width: 266.96px;
-  height:145.94px;
-  margin-top:30px;
+
+	min-width: 266.96px;
+  min-height:145.94px;
+  /* margin-top:30px; */
+	 margin: 30px;
   margin-bottom: 50px;
+	flex-grow: 1;
   background: #293F67
 }
 
-#events3
+/*#event3
 {
 	width: 266.96px;
   height:145.94px;
@@ -269,7 +270,7 @@ p
   margin-right: 120px;
   margin-bottom: 50px;
   background: #293F67
-}
+} */
 
 #upperFooter
 {
@@ -302,7 +303,7 @@ p
   height: 166px;
   margin-top:30px;
   margin-bottom: 20px;
-  background: #293F67
+  background: #293F67;
 }
 
 #footerNews
@@ -311,7 +312,7 @@ p
   height: 166px;
   margin-top:30px;
   margin-bottom: 20px;
-  background: #293F67
+  background: #293F67;
 }
 
 
@@ -322,7 +323,7 @@ p
   margin-top:30px;
   margin-right: 150px;
   margin-bottom: 20px;
-  background: #293F67
+  background: #293F67;
 }
 
 #social
