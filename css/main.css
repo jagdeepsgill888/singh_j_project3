@@ -214,10 +214,10 @@ p
 
 #eventsText
 {
-  width: 1125px;
-  height: 130px;
+  width: 230px;
+  height: 110px;
   margin-top: 50px;
-  margin-left: 120px;
+  margin-left: 20%;
   margin-bottom: 10px;
   background: #293F67;
 }
@@ -231,10 +231,11 @@ p
 {
   margin-bottom: 20px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
   justify-content: space-between;
 	padding-bottom: 5px;
   background: #4066AA;
+	flex-wrap: wrap;
 }
 
 #theEvents p
@@ -244,18 +245,17 @@ p
 
 #events1
 {
-  width: 330px;
-  height: 254px;
+  width: 266.96px;
+  height:145.94px;
   margin-top:30px;
-  margin-left: 120px;
   margin-bottom: 50px;
   background: #293F67;
 }
 
 #events2
 {
-  width: 330px;
-  height: 254px;
+	width: 266.96px;
+  height:145.94px;
   margin-top:30px;
   margin-bottom: 50px;
   background: #293F67
@@ -263,8 +263,8 @@ p
 
 #events3
 {
-  width: 330px;
-  height: 254px;
+	width: 266.96px;
+  height:145.94px;
   margin-top:30px;
   margin-right: 120px;
   margin-bottom: 50px;
