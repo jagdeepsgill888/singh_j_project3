@@ -346,6 +346,381 @@ p
   line-height: 55px;
 }
 
+@media screen and (min-width:32em) {
+	#HomeBeerPromoText {
+	height: 47%;
+	width: 50%;
+	margin-top: 90px;
+	margin-bottom: 30px;
+	}
+
+	#HomeBeerPromoImg {
+		height: 57%;
+		width: 50%;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width:45em) {
+	#HomeBeerPromoText {
+	height: 53%;
+	width: 50%;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	}
+
+	#HomeBeerPromoImg {
+		height: 63%;
+		width: 50%;
+		margin-left: 20px;
+		margin-top: 65px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width:55em) {
+	#HomeBeerPromoText {
+	height: 65%;
+	width: 50%;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	}
+
+	#HomeBeerPromoImg {
+		height: 75%;
+		width: 50%;
+		margin-left: 20px;
+		margin-top: 45px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (min-width:58em) {
+
+	#mainHeader
+	{
+		margin-top: 40px;
+		padding-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		border-bottom: solid 2px #ccc;
+	}
+
+	#logo
+	{
+		margin-top: 20px;
+		width: 261px;
+		height: 92px;
+		background: #4066AA;
+		margin-left: 20px;
+	}
+
+	#mainNav
+	{
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: 20px;
+		min-width: 500px;
+		height: 92px;
+		background: #4066AA;
+	}
+
+
+	#hero
+	{
+		margin-top: 55px;
+		padding-bottom: 20px;
+
+	}
+
+
+	 #heroImage {
+		height: 448px;
+		margin-left: 55px;
+		margin-right: 30px;
+		flex-grow: 1;
+		background: #4066AA;
+	}
+
+	#heroImage p
+	{
+		line-height: 450px;
+	}
+
+
+	#tagline
+	{
+		margin-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: solid 2px #ccc;
+	}
+
+	#tagLineImage
+	{
+		height: 393px;
+		margin-left: 50px;
+		margin-right: 30px;
+		background: #4066AA;
+	}
+
+	#tagLineImage p
+	{
+		line-height: 200px;
+	}
+
+
+
+	#HomeBeerPromoText1
+	{
+		margin-top: 40px;
+		padding-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background: #ccc;
+		border-bottom: solid 2px #ccc;
+	}
+
+	#homeBeer1
+	{
+		margin-top: 20px;
+		width: 261px;
+		height: 92px;
+		background: #4066AA;
+		margin-left: 20px;
+	}
+
+	#HomeBeerPromoImg1
+	{
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: 20px;
+		width: 821px;
+		height: 92px;
+		background: #4066AA;
+	}
+
+
+	/* testing */
+
+	#homeBeer
+	{
+		padding-bottom: 1px;
+		max-height: 456px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background: #4066AA;
+		height: 457px;
+	}
+
+	#homeBeer p
+	{
+		line-height: 250px;
+	}
+
+	#HomeBeerPromoText
+	{
+		width: 572px;
+		height: 338px;
+		margin-top: 90px;
+		margin-left: 120px;
+		margin-bottom: 50px;
+		order: -1;
+		background: #293F67;
+	}
+
+	#HomeBeerPromoImg
+	{
+		margin-left: 160px;
+		margin-top: 90px;
+		margin-right: 60px;
+		margin-bottom: 50px;
+		width: 347px;
+		height: 338px;
+		background: #293F67;
+	}
+
+
+	#charity
+	{
+		margin-bottom: 10px;
+		height: 392px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background: #4066AA;
+		margin-top: 25px;
+	}
+
+	#charityText
+	{
+		min-width: 420px;
+		margin-top: 40px;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 40px;
+		background: #293F67;
+	}
+
+	#charityText p
+	{
+		line-height: 250px;
+	}
+
+
+	#homeEvents
+	{
+		padding-bottom: 15px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background: #4066AA;
+		margin-top: 20px;
+	}
+
+	#eventsText
+	{
+		min-width: 900px;
+		width: 87%;
+		height: 130px;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		background: #293F67;
+	}
+
+	#eventsText p
+	{
+		line-height: 120px;
+	}
+
+	#theEvents
+	{
+		margin-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-bottom: 5px;
+		background: #4066AA;
+	}
+
+	#theEvents p
+	{
+		line-height: 260px;
+	}
+
+	#events1
+	{
+		min-width: 250px;
+		min-height: 224px;
+		margin-top:30px;
+		margin-bottom: 50px;
+		background: #293F67;
+	}
+
+	#events2
+	{
+		min-width: 250px;
+		min-height: 224px;
+		margin-top:30px;
+		margin-bottom: 50px;
+		background: #293F67
+	}
+
+	#events3
+	{
+		min-width: 250px;
+		min-height: 224px;
+		margin-top:30px;
+		margin-bottom: 50px;
+		background: #293F67
+	}
+
+	#upperFooter
+	{
+		display: grid;
+		flex-direction: row;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows:   0.5fr 0.5fr;
+		justify-content: space-between;
+		padding-bottom: 40px;
+		background: #4066AA;
+	}
+
+	#upperFooter p
+	{
+		line-height: 180px;
+	}
+
+
+	#footerLogo
+	{
+		grid-column: 1/2;
+		grid-row: 1/2;
+		width: 186px;
+		height: 166px;
+		margin: 0 auto;
+		margin-top:30px;
+		margin-bottom: 20px;
+		background: #293F67;
+	}
+
+	#footerContact
+	{
+		grid-column: 2/3;
+		grid-row: 1/2;
+		width:186px;
+		height: 166px;
+		margin: 0 auto;
+		margin-top:30px;
+		margin-bottom: 20px;
+		background: #293F67
+	}
+
+	#footerNews
+	{
+		grid-column: 3/4;
+		grid-row: 1/2;
+		width:186px;
+		height: 166px;
+		margin: 0 auto;
+		margin-top:30px;
+		margin-bottom: 20px;
+		background: #293F67
+	}
+
+
+	#footerNav
+	{
+		grid-column: 4/5;
+		grid-row: 1/2;
+		width: 186px;
+		height: 166px;
+		margin: 0 auto;
+		margin-top:30px;
+		margin-bottom: 20px;
+		background: #293F67
+	}
+
+	#socialMedia
+	{
+		grid-column: 2/4;
+		grid-row: 2/3;
+		height: 57px;
+		margin-top: 20px;
+		background: #293F67;
+	}
+
+	#socialMedia p
+	{
+		line-height: 55px;
+	}
+
+
+
+}
 
 @media screen and (min-width:64em) {
 
@@ -362,7 +737,7 @@ p
 	#logo
 	{
 	  margin-top: 20px;
-		width: 261px;
+		min-width: 210px;
 	  height: 92px;
 	  background: #4066AA;
 	  margin-left: 20px;
@@ -373,7 +748,7 @@ p
 	  margin-top: 20px;
 	  margin-left: auto;
 	  margin-right: 20px;
-		width: 821px;
+		min-width: 620px;
 	  height: 92px;
 	  background: #4066AA;
 	}
@@ -388,7 +763,7 @@ p
 
 
 	 #heroImage {
-	 width: 1250px;
+	 max-width: 1250px;
 	  height: 448px;
 	  margin-left: 55px;
 	  margin-right: 30px;
@@ -410,7 +785,7 @@ p
 
 	#tagLineImage
 	{
-	  width: 1250px;
+	  max-width: 1250px;
 	  height: 393px;
 	  margin-left: 50px;
 	  margin-right: 30px;
