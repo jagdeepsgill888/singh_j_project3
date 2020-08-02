@@ -230,6 +230,7 @@ p
 #theEvents
 {
   margin: 0 auto;
+	margin-bottom: 25px;;
 	display: flex;
 	flex-direction: column;
   justify-content: space-between;
@@ -533,10 +534,10 @@ p
 
 	#eventsText
 	{
-	  width: 1125px;
+	  min-width: 967px;
+		width: 87%;
 	  height: 130px;
 	  margin-top: 50px;
-	  margin-left: 120px;
 	  margin-bottom: 10px;
 	  background: #293F67;
 	}
@@ -566,7 +567,6 @@ p
 	  width: 330px;
 	  height: 254px;
 	  margin-top:30px;
-	  margin-left: 120px;
 	  margin-bottom: 50px;
 	  background: #293F67;
 	}
@@ -585,7 +585,6 @@ p
 	  width: 330px;
 	  height: 254px;
 	  margin-top:30px;
-	  margin-right: 120px;
 	  margin-bottom: 50px;
 	  background: #293F67
 	}
